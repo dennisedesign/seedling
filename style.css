@@ -1,0 +1,132 @@
+@charset "utf-8";
+/*My Custom CSS */
+body{
+    background-color:rgb(144, 212, 150);
+    padding-top: 25px;
+}
+.row {
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+h1 {
+     font-family: 'Libre Franklin', sans-serif;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Libre franklin', sans-serif;
+    overflow: hidden;
+}
+
+ul {
+    overflow: hidden;
+}
+
+.card {
+    text-align: center;
+    font-size: larger;
+}
+
+.jumotron {
+    margin: auto;
+    background-color: rgb(144, 212, 150);
+    line-height: 1;
+    height: 170px;
+}
+
+.row {
+    padding: 15px;
+    height: 300px;
+    width: 100%;
+}
+
+.headerimage {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    text-align: right;
+}
+
+.calendar {
+    border-radius: 30px;
+}
+
+@media (min-width: 992px) {
+    .date {
+        font-size: 3.5rem;
+    }
+}
+
+.calendar ol li {
+    float: left;
+    width: 14.28571%;
+}
+
+.calendar .day-names {
+    border-bottom: 1px solid #eee;
+}
+
+.calendar .days li {
+    border-bottom: 1px solid #eee;
+    min-height: 8rem;
+}
+
+.calendar .days li .date {
+margin: 0.5rem 0;
+}
+
+.calendar .days li .event {
+font-size: 0.75rem;
+padding: 0.4rem;
+color: white;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+border-radius: 4rem;
+margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-2 {
+    width: 200%;
+}
+
+.calendar .days li .event.begin {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.calendar .days li .event.end {
+    border-radius: 0 1rem 1rem 0;
+}
+
+.calendar .days li .event.clear {
+    background: none;
+}
+
+.calendar .days li:nth-child(n+29) {
+    border-bottom: none;
+}
+
+.calendar .days li.outside .date {
+    color: #ddd;
+}
+
+.footer {
+    align-items: center;
+    font-family: 'Libre franklin', sans-serif;
+    font-size: 10px;
+    color:rgb(0, 0, 0)
+}
+
